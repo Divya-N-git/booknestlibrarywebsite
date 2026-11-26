@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookNest Library - Membership</title>
+</head>
+<body bgcolor="#F0FFF4">
+<header>
+    <h1 align="center"><font color="#176B45">Become a Member</font></h1>
+</header>
+<nav align="center">
+    <a href="index.html">Home</a> |
+    <a href="books.html">Books</a> |
+    <a href="membership.html">Membership</a> |
+    <a href="media.html">Media</a>
+</nav>
+<hr>
+<main>
+    <section>
+        <h2>Membership Form</h2>
+        <form action="#" method="get">
+            <fieldset>
+                <legend>Member Details</legend>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name"
+                       placeholder="Enter your name" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"
+                       placeholder="Enter your email" required><br><br>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone"
+                       placeholder="Enter phone number"><br><br>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob"><br><br>
+                <label for="plan">Membership Plan:</label>
+                <select id="plan" name="plan">
+                    <option value="student">Student</option>
+                    <option value="adult">Adult</option>
+                    <option value="family">Family</option>
+                </select><br><br>
+                <p>Gender:</p>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br><br>
+                <label for="address">Address:</label><br>
+                <textarea id="address" name="address" rows="4" cols="35"
+                          placeholder="Enter your address"></textarea><br><br>
+                <button type="submit">Join BookNest</button>
+                <button type="reset">Clear Form</button>
+            </fieldset>
+        </form>
+    </section>
+</main>
+<footer>
+    <hr><p align="center">&copy; 2026 BookNest Library - Membership</p>
+</footer>
+</body>
+</html>
